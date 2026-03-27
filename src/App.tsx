@@ -182,6 +182,7 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             className="fixed inset-0 z-40 bg-white p-8 flex flex-col gap-6 lg:hidden overflow-y-auto pt-24"
+            style={{ height: "100vh", width: "80%" }}
           >
             {navLinks.map((link) => (
               <div key={link.name} className="flex flex-col gap-2">
